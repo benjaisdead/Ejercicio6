@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  background: #ededed;
+}
+.row {
+  clear: both;
+}
+.col-md-1{
+  width: 8.3%;
+  float: left;
+}
+.col-md-2{
+  width: 16.6%;
+  float: left;
+}
+.col-md-3{
+  width: 24.9%;
+  float: left;
+}
+.col-md-4{
+  width: 33.2%;
+  float: left;
+}
+.col-md-5{
+  width: 41.5%;
+  float: left;
+}
+.col-md-6{
+  width: 49.8%;
+  float: left;
+}
+.col-md-7{
+  width: 58.1%;
+  float: left;
+}
+.col-md-8{
+  width: 66.4%;
+  float: left;
+}
+.col-md-9{
+  width: 74.7%;
+  float: left;
+}
+.col-md-10{
+  width: 83%;
+  float: left;
+}
+.col-md-11{
+  width: 91.3%;
+  float: left;
+}
+.col-md-12{
+  width: 99.6%;
+  float: left;
+}
+.container {
+  margin: 8.5%;
+  margin-top: 12%;
+  height: 1400px;
+  background: white;
+  float: left;
+  position: relative;
+}
+.img-responsive{
+  float: left;
+  position: absolute;
+  width: 20%;
+  margin-left: 40%;
+  top: -7%;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: solid 10px #ededed;
+}
+.container h1 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 16.8%;
+  margin-right: 16.8%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #393433;
+}
+.container h1 span {
+  color: #ee503b;
+}
+hr {
+  box-sizing: border-box;
+  border: solid 3px #ededed;
+  position: absolute;
+  width: 98%;
+  top: 15%;
+  left: 1%;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #ee503b;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: #393433;
+}
+.acerca {
+  float: left;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 4%;
+  top: 20%;
+}
+.contacto {
+  float: left;
+  position: absolute;
+  box-sizing: border-box;
+  padding-right: 4%;
+  top: 20%;
+  left: 60%;
+}
+.contacto ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: #393433;
+}
+.contacto ul li span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #393433;
+}
+.educacion {
+  float: left;
+  position: relative;
+  padding-left: 4%;
+  top: 35%;
+}
+.skills {
+  float: left;
+  position: absolute;
+  top: 35%;
+  left: 60%;
+}
+.skill-box1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  background: #ee503b;
+  box-sizing: border-box;
+  padding: 3px;
+  width: 100%;
+}
+.skill-box2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  background: #ee503b;
+  box-sizing: border-box;
+  padding: 3px;
+  width: 90%;
+}
+.skill-box3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  background: #ee503b;
+  box-sizing: border-box;
+  padding: 3px;
+  width: 70%;
+}
+.skill-box4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  background: #ee503b;
+  box-sizing: border-box;
+  padding: 3px;
+  width: 50%;
+}
+.skill-box5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  background: #ee503b;
+  box-sizing: border-box;
+  padding: 3px;
+  width: 30%;
+}
+.años p span{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #393433;
+}
+.ed-text {
+  background: #ededed;
+  box-sizing: border-box;
+  position: absolute;
+  left: 20%;
+}
+.ed-text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #393433;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.ed-text2 {
+  background: #ededed;
+  box-sizing: border-box;
+  position: absolute;
+  left: 20%;
+  top: 160%;
+}
+.ed-text2 p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #393433;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.años2 p span{
+  float: left;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #393433;
+  margin-top: 20%;
+  right: 86%;
+}

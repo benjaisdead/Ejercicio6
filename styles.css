@@ -4,6 +4,7 @@ body {
 }
 .row {
   clear: both;
+  position: relative;
 }
 .col-md-1{
   width: 8.3%;
@@ -28,6 +29,9 @@ body {
 .col-md-6{
   width: 49.8%;
   float: left;
+}
+.col-md-6-offset{
+  margin-left: 60%;
 }
 .col-md-7{
   width: 58.1%;
@@ -85,7 +89,7 @@ body {
 .container h1 span {
   color: #ee503b;
 }
-hr {
+.hover1 {
   box-sizing: border-box;
   border: solid 3px #ededed;
   position: absolute;
@@ -244,4 +248,69 @@ p {
   color: #393433;
   margin-top: 20%;
   right: 86%;
+}
+.experiencia {
+  position: relative;
+  padding-left: 4%;
+  top: 48%;
+
+}
+.idiomas {
+  position: relative;
+  top: 48%;
+  margin-left: 6%;
+}
+
+.google1 p {
+  float: left;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: #393433;
+  margin-top: 5px;
+}
+.text-area {
+  float: left;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #393433;
+  left: 30%;
+  top: 50%;
+}
+.idiomas p {
+margin-top: 5px;
+margin-bottom: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 0.9em;
+color: #393433;
+}
+.star{
+  text-align: right;
+}
+.star span{
+  color: #ee503b;
+}
+.hover2 {
+  margin: solid 0.5px silver;
+}
+.hobbies{
+float: left;
+position: absolute;
+top: 70%;
+}
+.hobbies p{
+  float: left;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #393433;
+  color: white;
+  background-color: #a95064;
+  box-sizing: border-box;
+  padding: 5px;
 }
